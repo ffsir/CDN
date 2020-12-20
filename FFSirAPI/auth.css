@@ -23,7 +23,7 @@
 
 .auth-main {
 	background: white;
-	border-radius: 15px;
+	
 	box-shadow: 0 0 7px 1px #c5c5c5;
 }
 
@@ -59,8 +59,8 @@
 
 .auth-bottom {
 	margin-top: 20px;
-	background: #7ea8bd;
-	border-radius: 50% 50% 15px 15px;
+	background: #515a6e;
+	
 }
 .tgauth {
 	margin: 7px auto 8px auto;
@@ -99,7 +99,7 @@
 	justify-content: space-between;
 	align-items: flex-end;
 	background: #bbdefb;
-	border-radius: 15px 15px 0 0;
+	
 }
 
 a.boardtop-right {
