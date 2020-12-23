@@ -98,7 +98,7 @@
 .auth-top {
 	justify-content: space-between;
 	align-items: flex-end;
-	background: #bbdefb;
+	background: #515a6e;
 	
 }
 
@@ -168,7 +168,7 @@ a.boardtop-left:hover {
 	background: #54aff9;
 }
 .auth-logo {
-	background: #bbdefb;
+	background: #515a6e;
 	border-radius: 10px 10px 0 0;
 }
 .auth-logo img {
