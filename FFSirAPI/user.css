@@ -348,14 +348,14 @@ a.btn-dl:focus,a.btn-dl:visited {
 .deng-box {
 	position: fixed;
 	top: -40px;
-	right: -20px;
+	right: 40px;
 	z-index: 999;
 }
  
 .deng-box1 {
 	position: fixed;
 	top: -30px;
-	right: 10px;
+	right: 50px;
 	z-index: 999;
 }
  
