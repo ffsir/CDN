@@ -6775,7 +6775,7 @@ a.block.block-link-hover3:active {
     margin-top: 7px;
     width: 30px;
     height: 18px;
-    background: url(../../img/hot.png) no-repeat center;
+    background: url(https://vps.icu/templates/oneui_new/img/hot.png) no-repeat center;
 }
 .mnew{
 	position: absolute;
@@ -6783,7 +6783,7 @@ a.block.block-link-hover3:active {
     margin-top: 7px;
     width: 30px;
     height: 18px;
-    background: url(../../img/new.png) no-repeat center;
+    background: url(https://vps.icu/templates/oneui_new/img/new.png) no-repeat center;
 }
 .nav-main-header ul {
   margin: 0 0 0 15px;
@@ -11906,19 +11906,19 @@ div.tagsinput span.tag a:hover {
 }
 .ny-back-btn:hover {
 	border-color: #00aaff;
-	background: url(../../img/return-icon-hover.png) no-repeat center center;
+	background: url(https://vps.icu/templates/oneui_new/img/return-icon-hover.png) no-repeat center center;
 }
 .ny-back-btn:active,
 .ny-back-btn:focus {
 	border-color: #00aaff;
-	background: #d6f1ff url(../../img/return-icon-hover.png) no-repeat center center;
+	background: #d6f1ff url(https://vps.icu/templates/oneui_new/img/return-icon-hover.png) no-repeat center center;
 }
 .ny-back-btn {
 	width: 40px;
 	margin-top: 4px;
 	margin-right: 15px;
 	margin-left: 0;
-	background: url(../../img/return-icon.png) no-repeat center center;
+	background: url(https://vps.icu/templates/oneui_new/img/return-icon.png) no-repeat center center;
 }
 
 .btn-lan {
@@ -12165,16 +12165,16 @@ div.tagsinput span.tag a:hover {
 }
 
 .virtue-bg1 {
-	    background-image: url(../../img/virtue_1.png);
+	    background-image: url(https://vps.icu/templates/oneui_new/img/virtue_1.png);
 }
 .virtue-bg2 {
-	    background-image: url(../../img/virtue_2.png);
+	    background-image: url(https://vps.icu/templates/oneui_new/img/virtue_2.png);
 }
 .virtue-bg3 {
-	    background-image: url(../../img/virtue_3.png);
+	    background-image: url(https://vps.icu/templates/oneui_new/img/virtue_3.png);
 }
 .virtue-bg4 {
-	    background-image: url(../../img/virtue_4.png);
+	    background-image: url(https://vps.icu/templates/oneui_new/img/virtue_4.png);
 }
 .virtue-bg {
 	    display: list-item;
@@ -12209,10 +12209,10 @@ div.tagsinput span.tag a:hover {
 .slick-dotted.syslider .bnnars {
     height: 720px;
 }
-.hdp1 {background:url(https://www.gfvps.cn/Uploads/2020-03-15/5e6e50d86d15d.jpg) no-repeat;background-position:center; background-size: auto 720px;}
-.hdp2 {background:url(https://www.gfvps.cn/Uploads/2020-03-15/5e6e4f9bca828.jpg) no-repeat;background-position:center; background-size: auto 720px;}
+.hdp1 {background:url(https://vps.icu/templates/oneui_new/img/banner_5years.jpg) no-repeat;background-position:center; background-size: auto 720px;}
+.hdp2 {background:url(https://vps.icu/templates/oneui_new/img/home_banner_free.png) no-repeat;background-position:center; background-size: auto 720px;}
 
-.msildbar {background: url('../../img/pattern-azure-dark.png') no-repeat #0b0909;background-size:contain;background-position: center;}
+.msildbar {background: url('https://vps.icu/templates/oneui_new/img/pattern-azure-dark.png') no-repeat #0b0909;background-size:contain;background-position: center;}
 .syhdpan{font-weight:400;margin-top:80px;}
 .syicon {font-size: 40px;position: absolute;left: 25px;top: 30px;}
 .sysg{margin-left: 70px;}
@@ -12240,12 +12240,12 @@ div.tagsinput span.tag a:hover {
 .yfwqxgan:hover,.glkztan:hover{color:#fff;}
 .tkfwwz{color: #009fd9;margin-top: 15px;vertical-align: middle;}
 .tkfwtb{margin-right: 8px;font-size: 16px;}
-.yfwqbgtp {background: url('../../img/vpstp.png') no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: bottom;}
-.xnzjbgtp {background: url('../../img/xnzj.png') no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: center;}
-.dfbgtp{background: url('../../img/dlfwq.png')  no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: bottom;}
+.yfwqbgtp {background: url('https://vps.icu/templates/oneui_new/img/vpstp.png') no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: bottom;}
+.xnzjbgtp {background: url('https://vps.icu/templates/oneui_new/img/xnzj.png') no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: center;}
+.dfbgtp{background: url('https://vps.icu/templates/oneui_new/img/dlfwq.png')  no-repeat; background-size: auto 400px; background-position-x: right; background-position-y: bottom;}
 .line30f15{font-size: 15px; line-height: 30px;}
-.yhcxbg{background: url('../../img/home2.jpg') #252e33  no-repeat; background-position:center;}
-.aboutbg{background: url('../../img/12312.jpg') #252e33  no-repeat; background-position:center;}
+.yhcxbg{background: url('https://vps.icu/templates/oneui_new/img/home2.jpg') #252e33  no-repeat; background-position:center;}
+.aboutbg{background: url('https://vps.icu/templates/oneui_new/img/12312.jpg') #252e33  no-repeat; background-position:center;}
 .aboutwz{line-height:30px;text-indent: 2em;}
 .aupss > li {line-height: 30px;font-family: Microsoft YaHei Light , Microsoft YaHei;}
 @media screen and (max-width: 921px) {
