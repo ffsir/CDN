@@ -2219,6 +2219,14 @@ f .yzmplayer.yzmplayer-mobile .yzmplayer-controller .yzmplayer-icons .yzmplayer-
     display: none
 }
 
+@media (max-width:544px) {
+    .yzmplayer-info-panel {
+    	left: 3%!important;
+    	width: 90%!important;
+    }
+}
+
+
 .yzmplayer-info-panel .yzmplayer-info-panel-close {
     cursor: pointer;
     position: absolute;
