@@ -1688,10 +1688,6 @@ button, input, textarea, select, label, label i:before, a, [class*='Btn'] {
     position: relative
 }
 
-.Header .Logo {
-    padding: 20px 60px;
-    text-align: center
-}
 
 .MenuBtn {
     font-size: 0;
