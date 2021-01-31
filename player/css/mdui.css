@@ -1550,7 +1550,7 @@ f .yzmplayer.yzmplayer-mobile .yzmplayer-controller .yzmplayer-icons .yzmplayer-
 	word-break: normal;
 	z-index: 2;
 	pointer-events: none;
-	background: url(../images/sign.png) no-repeat center;
+	background: url(https://cdn.jsdelivr.net/gh/ffsir/CDN/player/dmplayer/images/sign.png) no-repeat center;
 }
 
 .yzmplayer-controller .yzmplayer-bar-wrap .yzmplayer-bar-time.hidden {
