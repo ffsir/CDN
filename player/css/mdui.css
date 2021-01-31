@@ -3760,16 +3760,16 @@ ul::-webkit-scrollbar-track {
 	background-color: #999;
 }
 
-.yzmplayer-setting-speeds:active .title, .speed-stting speed-stting-open {
-	background-color: #00a1d6 !important;
-}
-
 .yzmplayer-setting-speeds:hover .title, .yzmplayer .yzmplayer-controller .yzmplayer-icons.yzmplayer-comment-box .yzm-yzmplayer-send-icon {
 	background-color: #fb7299 !important;
 }
 
 .showdan-setting .yzmplayer-toggle input:checked+label,.yzmplayer-volume-bar-inner,.yzmplayer-thumb,.yzmplayer-played,.yzmplayer-comment-setting-box .yzmplayer-setting-danmaku .yzmplayer-danmaku-bar-wrap .yzmplayer-danmaku-bar .yzmplayer-danmaku-bar-inner,.yzmplayer-controller .yzmplayer-icons .yzmplayer-toggle input:checked+label,label.checked,.yzmplayer-controller .yzmplayer-icons.yzmplayer-comment-box .yzmplayer-comment-setting-box .yzmplayer-comment-setting-type input:checked+span,.yzmplayer-controller .yzmplayer-icons.yzmplayer-comment-box .yzmplayer-comment-setting-box .yzmplayer-comment-setting-font input:checked+span {
 	background: #fb7299 !important;
+}
+
+.yzmplayer-setting-speeds:active .title, .speed-stting speed-stting-open {
+	background-color: #00a1d6 !important;
 }
 
 .yzmplayer-full-icon span:hover {
