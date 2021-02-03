@@ -23,7 +23,7 @@
 
 .auth-main {
 	background: white;
-	
+	border-radius: 15px;
 	box-shadow: 0 0 7px 1px #c5c5c5;
 }
 
@@ -59,8 +59,8 @@
 
 .auth-bottom {
 	margin-top: 20px;
-	background: #515a6e;
-	
+	background: #7ea8bd;
+	border-radius: 50% 50% 15px 15px;
 }
 .tgauth {
 	margin: 7px auto 8px auto;
@@ -98,13 +98,13 @@
 .auth-top {
 	justify-content: space-between;
 	align-items: flex-end;
-	background: #515a6e;
-	
+	background: #bbdefb;
+	border-radius: 15px 15px 0 0;
 }
 
 a.boardtop-right {
 	color: white;
-	background: rgba(0,0,0,.15);
+	background: #54aff9;
 	padding: 3px 1.5em 2px 1.5em;
 	border-radius: 10px 0 0 0px;
 	box-shadow: 0 0 5px 0px #969696;
@@ -118,7 +118,7 @@ a.boardtop-right:hover {
 
 a.boardtop-left {
 	color: white;
-	background: rgba(0,0,0,.15);
+	background: #54aff9;
 	padding: 3px 1.5em 2px 1.5em;
 	border-radius: 0 10px 0 0;
 	box-shadow: 0 0 5px 0px #969696;
@@ -168,14 +168,14 @@ a.boardtop-left:hover {
 	background: #54aff9;
 }
 .auth-logo {
-	background: #515a6e;
+	background: #bbdefb;
 	border-radius: 10px 10px 0 0;
 }
 .auth-logo img {
-	max-width: 150px;
-	
+	max-width: 100px;
+	border-radius: 50%;
 	margin: 1em 0 1em 0;
-	
+	box-shadow: 0 0 5px 0 #afafaf;
 	user-select: none;
 }
 
