@@ -3854,3 +3854,40 @@ ul::-webkit-scrollbar-track {
 		transform: translateY(0);
 	}
 }
+
+#llqwatch {
+    position:absolute;
+    top:10px;
+    right:10px;
+    z-index:999;
+    background-color:transparent;
+    border-style:none;
+    color:#DCDCDC;
+    font-size:15px;
+}
+
+
+
+.llqplayer-home {
+	width: 300px;
+	position: fixed;
+	float: right;
+	height: calc((80% - 100px));
+	right: 15px;
+	top: 35px;
+	border-radius: 4px;
+	background-color: #222;
+	opacity: 1;
+	display: none;
+	background: rgba(21, 21, 21, .9);
+}
+
+.llqplayer-home.show {
+	display: block;
+}
+
+.llqplayer-home {
+	animation: fastrx60 0.5s;
+	-webkit-animation: fastrx60 0.5s;
+	-moz-animation: fastrx60 0.5s;
+}
