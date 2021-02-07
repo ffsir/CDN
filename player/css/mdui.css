@@ -2969,7 +2969,7 @@ ul::-webkit-scrollbar-track {
 	left: 50%;
 	height: 32px;
 	width: 32px;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224236.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200524205221.png);
 	-webkit-animation: vod_loading 1s steps(30) infinite;
 	width: 54px;
 	height: 20px;
@@ -2977,7 +2977,7 @@ ul::-webkit-scrollbar-track {
 	background-size: 54px 600px;
 	animation: vod_loading 1s steps(30) infinite;
 	opacity: 1;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200524205221.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224236.png);
 }
 
 .yzmplayer:-webkit-full-screen .yzmplayer-fulloff-icon {
