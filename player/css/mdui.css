@@ -3891,3 +3891,13 @@ ul::-webkit-scrollbar-track {
 	-webkit-animation: fastrx60 0.5s;
 	-moz-animation: fastrx60 0.5s;
 }
+
+.llqplayer 
+{
+			background-color: black;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			color: #999;
+}
