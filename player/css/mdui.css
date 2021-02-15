@@ -3395,8 +3395,7 @@ ul::-webkit-scrollbar-track {
 .yzmplayer-comment,
 .yzmplayer-mobile .yzmplayer-controller.yzmplayer-controller-comment .yzmplayer-icons,
 .svg-icon,
-.yzmplayer-mobile .dmrules,
-.yzmplayer-setting-speed {
+.yzmplayer-mobile .dmrules {
 	display: none;
 }
 
