@@ -25,7 +25,7 @@
 				thisPath = scriptList[i].src;
 			}
 		}
-		ckplayerPath = thisPath.substring(0, thisPath.lastIndexOf('/') + 1);
+		ckplayerPath = "./";
 	} ();
 	var ckplayer = function(obj) {
 		/*
