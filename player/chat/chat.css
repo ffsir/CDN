@@ -13,8 +13,8 @@
     }
 body{
 margin:0 auto;
- background-image:url("https://cdn.jsdelivr.net/gh/soxft/cdn@latest/time/img/background.png");    /*背景图这里我用的接口想换可以自己找*/
- 
+background:url("https://img.imgdb.cn/item/602ccdd83ffa7d37b34a86ad.png")  no-repeat;    /*背景图这里我用的接口想换可以自己找*/
+background-size: 100% 100%; 
     }
     #uploadFile {
 	position: absolute;
