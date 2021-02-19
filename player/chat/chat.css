@@ -13,7 +13,7 @@
     }
 body{
 margin:0 auto;
-background:url("https://img.imgdb.cn/item/602ccdd83ffa7d37b34a86ad.png")  no-repeat;    /*背景图这里我用的接口想换可以自己找*/
+//background:url("https://img.imgdb.cn/item/602ccdd83ffa7d37b34a86ad.png")  no-repeat;    /*背景图这里我用的接口想换可以自己找*/
 background-size: 100% 100%; 
     }
     #uploadFile {
@@ -37,10 +37,10 @@ background-size: 100% 100%;
     position:relative;
     overflow-y: scroll;
     overflow-x: hidden;
-	height: calc(100% - 80px);border: 1px solid #eceff1;
+	height: calc(100% - 80px);
 	border-bottom:0;
 }
-.top{padding-left:10px;background-color: #eceff1;height:40px;line-height:40px;text-align:center;}
+.top{padding-left:10px;background-color: rgba(0,0,0,0);height:40px;line-height:40px;text-align:center;color:white;}
 .foot{line-height:50px;text-align:center;font-size:12px;}
 .write{height:40px;width: 100%;}
 .write input { 
@@ -52,12 +52,13 @@ background-size: 100% 100%;
     border-radius:0;
     border: 0;
     outline: none;
-    background:#eceff1;
+    background:rgba(0,0,0,.6);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    color:white;
 }
 #fresh{color:#fff}
-.send{color:#fff;text-decoration:none;width:60px; background-color: #007bff;display:inline-block;height: 41px;line-height:40px;text-align:center;border-style:none;}
+.send{color:#fff;text-decoration:none;width:60px; background-color: #222;display:inline-block;height: 41px;line-height:40px;text-align:center;border-style:none;}
 .send.disabled{background-color: #cccccc;}
 .mk-chat-box .msg{ /*消息主体*/
     margin: 4px 6px;
