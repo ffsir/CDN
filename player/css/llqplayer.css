@@ -3893,10 +3893,10 @@ ul::-webkit-scrollbar-track {
 
 .llqplayer 
 {
-			background-color: #fff;
+			background-color: #999;
 			padding: 0;
 			margin: 0;
 			width: 100%;
 			height: 100%;
-			color: #999;
+			color: #3F51B5;
 }
