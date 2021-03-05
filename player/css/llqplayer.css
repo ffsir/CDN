@@ -3900,3 +3900,6 @@ ul::-webkit-scrollbar-track {
 			height: 100%;
 			color: #e91e63;
 }
+.yzmplayer-info-panel-item-url {
+    display: none;
+}
