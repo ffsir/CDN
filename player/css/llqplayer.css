@@ -3904,3 +3904,9 @@ ul::-webkit-scrollbar-track {
 .yzmplayer-info-panel-item-url {
     display: none;
 }
+
+.yzmplayer-video-wrap .yzmplayer-video-current {
+	object-fit: fill;	
+}
+
+	
