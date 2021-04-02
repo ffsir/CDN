@@ -3905,8 +3905,5 @@ ul::-webkit-scrollbar-track {
     display: none;
 }
 
-.yzmplayer-video-wrap .yzmplayer-video-current {
-	object-fit: fill;	
-}
 
 	
