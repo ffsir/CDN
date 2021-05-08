@@ -3863,6 +3863,7 @@ ul::-webkit-scrollbar-track {
     border-style:none;
     color:#DCDCDC;
     font-size:15px;
+	display:none;	
 }
 
 
