@@ -3902,5 +3902,5 @@ ul::-webkit-scrollbar-track {
 			color: #e91e63;
 }
 .yzmplayer-info-panel-item-url {
-    display: none;
+    display: block;
 }
