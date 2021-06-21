@@ -2868,10 +2868,6 @@ ul::-webkit-scrollbar-track {
 	opacity: .9;
 }
 
-.yzmplayer .yzmplayer-controller .yzmplayer-icons.yzmplayer-comment-box .yzm-yzmplayer-send-icon:active {
-	background-color: #1e9fff !important;
-}
-
 ::-webkit-input-placeholder {
 	/* WebKit browsers*/
 	color: #ddd;
@@ -3902,5 +3898,5 @@ ul::-webkit-scrollbar-track {
 			color: #e91e63;
 }
 .yzmplayer-info-panel-item-url {
-    display: block;
+    display: none;
 }
