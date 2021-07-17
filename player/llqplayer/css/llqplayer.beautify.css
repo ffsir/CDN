@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) {
+    .llqplayer-controller .llqplayer-bar-wrap {
+        bottom: 2rem;
+    }
+    .llqplayer-controller {
+        height: 54px;
+    }
+    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar {
+    	height: 4px;
+    	margin-top: -1px;
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
+        bottom:0.3rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-right { 
+        right:1rem;
+    }
+    .llqplayer-controller .llqplayer-icons {
+        height: 2.3rem;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-icon {
+        width:54px;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-right .llqplayer-icon {
+        padding:unset;
+    }
+    .llqplayer-full-icon span, .llqplayer-fulloff-icon span, .llqplayer-volume-icon span, .llqplayer-setting-icon span, .llqplayer-list-icon span, .llqplayer-full-in-icon span, .llqplayer-play-icon span, .llqplayer-comment-setting-icon span {
+        width: 54px;
+        height: 28px;
+    }
+    .llqplayer-play-icon svg {
+        width: 54px;
+        height: 35px;
+    }
+    .icon-xj {
+        left: 7px;
+        top: 1px;
+    }
+    .icon-xj span svg {
+        width: 54px;
+        height: 32px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar {
+        top: 1.05rem;
+        height: 0.2rem;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar .llqplayer-volume-bar-inner .llqplayer-thumb {
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+    .llqplayer-icons-left{
+        width:100%;
+        left: 1rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-left .llqplayer-icon {
+        padding: unset; 
+    }
+    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-played {
+        height: 4px;
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input, .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-send-icon {
+        height:34px;
+        bottom: 0.1rem;
+        border-radius: unset;
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input {
+        width: 25vw;
+    }
+    .llqplayer-choose-icon {
+        font-size: 16px;
+    }
+    .showdan-setting .llqplayer-toggle {
+        top: 7px !important;
+	    right: 20px !important;
+    }
+}
