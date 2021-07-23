@@ -2967,8 +2967,8 @@ ul::-webkit-scrollbar-track {
 .llqplayer-bezel .diplayer-loading-icon, .Loading {
 	display: none;
 	position: absolute;
-	bottom: 55px;
-	right: 45px;
+	/*bottom: 55px;
+	right: 45px;*/
 	pointer-events: none;
 	border: 0;
 	border-color: unset;
@@ -2976,11 +2976,11 @@ ul::-webkit-scrollbar-track {
 	-moz-animation: spinoffPulse .9s infinite linear;
 	-webkit-animation: unset;
 	top: 50%;
-	left: 45%;
+	left: 50%;
 	-webkit-animation: vod_loading 1s steps(30) infinite;
 	width: 3rem;
 	height: 3rem;
-	margin: -18px 0 0 -18px;
+	margin: -2.2rem 0 0 -1.5rem;
 	background-size: 54px 600px;
 	animation: vod_loading 1s steps(30) infinite;
 	opacity: 1;
