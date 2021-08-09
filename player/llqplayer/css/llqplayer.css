@@ -2033,7 +2033,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	position: relative;
 }
 
-.llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-item, .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-speed-item:hover {
+.llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-item:hover, .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-speed-item:hover {
 	background-color: hsla(0, 0%, 100%, .1)
 }
 
