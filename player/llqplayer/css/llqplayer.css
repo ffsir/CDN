@@ -1982,7 +1982,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 
 .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box {
 	position: absolute;
-	right: 0.5rem;
+	right: 2rem;
 	bottom: 60px;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -2010,7 +2010,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box.llqplayer-setting-box-narrow {
-	width: 70px;
+	width: 5rem;
 	height: 180px;
 	text-align: center
 }
@@ -2033,7 +2033,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	position: relative;
 }
 
-.llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-item:hover {
+.llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-item, .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-speed-item:hover {
 	background-color: hsla(0, 0%, 100%, .1)
 }
 
