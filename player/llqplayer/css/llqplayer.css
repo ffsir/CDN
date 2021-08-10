@@ -3215,10 +3215,6 @@ ul::-webkit-scrollbar-track {
 	bottom: 60px;
 }
 
-.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-icon {
-	margin-left: -10px;
-}
-
 .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
 	display: block;
 	width: 40%;
@@ -4196,4 +4192,8 @@ ul::-webkit-scrollbar-track {
     .llqplayer-comment-box {
         display: none !important; 
     }
+}
+
+.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-icon {
+	margin-left: -0.1rem;
 }
