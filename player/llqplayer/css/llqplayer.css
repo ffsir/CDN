@@ -4178,7 +4178,7 @@ ul::-webkit-scrollbar-track {
     font-size:0.5rem;position: absolute;left: 135px;top: 3rem;overflow: auto;
 }
 
-.llqplayer-icon .icon-xj {
+.llqplayer-icon.icon-xj {
     margin-left: auto;	
 }
 
