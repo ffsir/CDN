@@ -1871,7 +1871,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
-	margin-left: -10px;
+	margin-left: auto;
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-icon .llqplayer-icon-content {
@@ -4176,10 +4176,6 @@ ul::-webkit-scrollbar-track {
 
 .blurb {
     font-size:0.5rem;position: absolute;left: 135px;top: 3rem;overflow: auto;
-}
-
-.llqplayer-icon.icon-xj {
-    margin-left: auto;	
 }
 
 @media screen and (max-width:768px) {
