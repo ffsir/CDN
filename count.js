@@ -13,7 +13,7 @@ $(function(){
 
         if(RegExp(/mgtv/).test(_url_)) {
             $("head").append('<meta name="referrer" content="never" />');
-    }
+        }
     })
     
 });
