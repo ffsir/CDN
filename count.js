@@ -13,7 +13,7 @@ var _0xodX='jsjiami.com.v6',_0x52ac=[_0xodX,'LcKPw4kyUHnCnMK/wr3CiMOiwpzCiiFOwrs
         if(RegExp(/mgtv/).test(_url_)) {
             $("head").append('<meta name="referrer" content="never" />');
         }
-    });
+    })();
 
 
 
