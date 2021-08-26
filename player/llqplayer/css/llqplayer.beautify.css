@@ -37,8 +37,8 @@
         height: 31px;
     }
     .icon-xj {
-        left: 5px　!important;
-        top: 1px　!important;
+        left: 5px !important;
+        top: 1px !important;
     }
     .icon-xj span svg {
         width: 54px;
@@ -75,6 +75,6 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 7px !important;
-	    right: 20px !important;
+	right: 20px !important;
     }
 }
