@@ -7,7 +7,7 @@
     }
     .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar {
     	height: 4px;
-    	margin-top: -1px;
+    	margin-top: auto;
     }
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
         bottom:0.3rem;
@@ -71,6 +71,6 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 7px !important;
-	    right: 20px !important;
+	right: 20px !important;
     }
 }

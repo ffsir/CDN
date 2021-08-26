@@ -1562,7 +1562,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 
 .llqplayer-controller .llqplayer-bar-wrap:hover .llqplayer-bar {
 	height: 4px;
-	margin-top: -1px;
+	margin-top: auto;
 }
 
 .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded {
