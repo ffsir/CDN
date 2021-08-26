@@ -1,3 +1,7 @@
+.icon-xj {
+    left: 4px;
+}
+
 @media screen and (min-width: 768px) {
     .llqplayer-controller .llqplayer-bar-wrap {
         bottom: 2rem;
@@ -33,12 +37,12 @@
         height: 31px;
     }
     .icon-xj {
-        left: 4px;
-        top: 1px;
+        left: 5px　!important;
+        top: 1px　!important;
     }
     .icon-xj span svg {
         width: 54px;
-        height: 31px;
+        height: 33px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar {
         top: 1.05rem;
@@ -71,6 +75,6 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 7px !important;
-	right: 20px !important;
+	    right: 20px !important;
     }
 }
