@@ -65,7 +65,6 @@
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input, .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-send-icon {
         height:34px;
         bottom: 0.1rem;
-        border-radius: unset;
     }
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input {
         width: 25vw;
