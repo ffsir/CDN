@@ -2232,14 +2232,16 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	width: 16px;
 	top: 2px;
 	left: 2px;
-	line-height: 17px;
+	line-height: 15px;
     text-align: center;
 	font-weight: 600;
-	border-radius: 15px;
+	border-radius: 100%;
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 	color: white;
-	font-size: 10px;
+	font-size: xx-small;
+	font-family: STZhongsong;
+	content: "";
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:after {
@@ -3199,10 +3201,6 @@ ul::-webkit-scrollbar-track {
     right: -23px !important;
 }
 
-.showdan-setting .llqplayer-toggle input+label {
-	background: #757575 !important;
-}
-
 .llqplayer-mobile .llqplayer-controller {
 	height: 41px;
 }
@@ -3743,7 +3741,7 @@ ul::-webkit-scrollbar-track {
     width:100%;height:100%;
 }
 .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label {
-	background-color: #999;
+	background-color: #757575;
 }
 
 .llqplayer-setting-speeds:hover .title, .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-send-icon {
@@ -3758,7 +3756,7 @@ ul::-webkit-scrollbar-track {
 	background-color: #00a1d6 !important;
 }
 .llqplayer-list-icon span:hover {
-	animation: rotate1 .5s linear 2;
+	animation: rotate1 .5s linear 1;
 }
 /*
 .llqplayer-full-in-icon span:hover,.llqplayer-list-icon span:hover {
@@ -4199,5 +4197,11 @@ ul::-webkit-scrollbar-track {
 }
 
 .llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-icon {
-	margin-left: -0.1rem;
+	/*	margin-left: -0.1rem;*/
+	}
+	
+@media screen and (max-width:376px) {
+	.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-comment {
+		display: none;
+	}
 }
