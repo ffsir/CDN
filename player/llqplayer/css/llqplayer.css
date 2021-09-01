@@ -2212,9 +2212,9 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	position: relative;
 	-webkit-box-shadow: #dfdfdf 0 0 0 0 inset;
 	box-shadow: inset 0 0 0 0 #dfdfdf;
-	border: 1px solid rgba(245, 237, 237, 0);
-	height: 18px;
-	width: 34px;
+	/*border: 1px solid rgba(245, 237, 237, 0);*/
+	height: 20px;
+	width: 30px;
 	border-radius: 10px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -2222,7 +2222,6 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 	background: hsla(0, 0%, 100%, .5);
-	background: rgba(251, 114, 153, 0.92);
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:after,
@@ -2230,24 +2229,24 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	position: absolute;
 	display: block;
 	height: 16px;
-	width: 21px;
-	top: -2px;
-	left: 0;
-	color: #fff;
+	width: 16px;
+	top: 2px;
+	left: 2px;
+	line-height: 17px;
+    text-align: center;
+	font-weight: 600;
 	border-radius: 15px;
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 	color: white;
 	font-size: 10px;
-	padding-top: 5px;
-	content: "";
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:after {
     color: #00a1d6;
 	background: #fff;
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 3px 1px 0 rgb(0 0 0 / 5%), 0 2px 2px 0 rgb(0 0 0 / 10%), 0 3px 3px 0 rgb(0 0 0 / 5%);
+	box-shadow: 0 3px 1px 0 rgb(0 0 0 / 5%), 0 2px 2px 0 rgb(0 0 0 / 10%), 0 3px 3px 0 rgb(0 0 0 / 5%);
 }
 
 .llqplayer-setting-item.llqplayer-setting-showdan.showdan-setting .llqplayer-toggle input+label:after {
@@ -2255,7 +2254,12 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 }
 
 .llqplayer-controller .llqplayer-icons .llqplayer-toggle input:checked+label:after {
-	left: 17px;
+	left: 100%;
+	margin-left: -18px;
+}
+
+.llqplayer-controller .llqplayer-icons .llqplayer-toggle input:not(:checked)+label:after {
+	color: #757575 !important;
 }
 
 .llqplayer-danmaku {
@@ -2871,7 +2875,7 @@ ul::-webkit-scrollbar-track {
 	width: 65%;
 	height: 26px;
 	color: #fff;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.35);
 	border-radius: 4px 0 0px 4px;
 	bottom: 0px;
 	position: relative;
@@ -3196,7 +3200,7 @@ ul::-webkit-scrollbar-track {
 }
 
 .showdan-setting .llqplayer-toggle input+label {
-	background: #999 !important;
+	background: #757575 !important;
 }
 
 .llqplayer-mobile .llqplayer-controller {
