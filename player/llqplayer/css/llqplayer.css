@@ -3758,6 +3758,9 @@ ul::-webkit-scrollbar-track {
 .llqplayer-list-icon span:hover {
 	animation: rotate1 .5s linear 1;
 }
+.llqplayer-controller .llqplayer-icons .llqplayer-list-icon {
+	display: none;
+}
 /*
 .llqplayer-full-in-icon span:hover,.llqplayer-list-icon span:hover {
 	animation: rotate1 .5s linear 2;
