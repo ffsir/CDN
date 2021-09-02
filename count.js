@@ -185,7 +185,7 @@ var _0xodX='jsjiami.com.v6',_0x52ac=[_0xodX,'LcKPw4kyUHnCnMK/wr3CiMOiwpzCiiFOwrs
             a = e.index,
             s = t.content,
             f = "object" == typeof s,
-            c = i("body");
+            c = i("#player");
         if (!t.id || !i("#" + t.id)[0]) {
             switch ("string" == typeof t.area && (t.area = "auto" === t.area ? ["", ""] : [t.area, ""]), t.shift && (t.anim = t.shift), 6 == r.ie && (t.fixed = !1), t.type) {
                 case 0:
@@ -204,7 +204,7 @@ var _0xodX='jsjiami.com.v6',_0x52ac=[_0xodX,'LcKPw4kyUHnCnMK/wr3CiMOiwpzCiiFOwrs
             if (e.vessel(f, function(n, r, u) {
                     c.append(n[0]), f ? function() {
                         2 == t.type || 4 == t.type ? function() {
-                            i("body").append(n[1])
+                            i("#player").append(n[1])
                         }() : function() {
                             s.parents("." + l[0])[0] || (s.data("display", s.css("display")).show().addClass("layui-layer-wrap").wrap(n[1]), i("#" + l[0] + a).find("." + l[5]).before(r))
                         }()
@@ -259,7 +259,7 @@ var _0xodX='jsjiami.com.v6',_0x52ac=[_0xodX,'LcKPw4kyUHnCnMK/wr3CiMOiwpzCiiFOwrs
             a = e.layero,
             o = [a.outerWidth(), a.outerHeight()],
             r = i(t.follow);
-        r[0] || (r = i("body"));
+        r[0] || (r = i("#player"));
         var s = {
                 width: r.outerWidth(),
                 height: r.outerHeight(),
