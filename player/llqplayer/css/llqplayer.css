@@ -1191,8 +1191,7 @@ button[data-balloon] {
 .llqplayer.llqplayer-no-danmaku .llqplayer-controller .llqplayer-icons .llqplayer-comment,
 .llqplayer.llqplayer-no-danmaku .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box .llqplayer-setting-danmaku,
 .llqplayer.llqplayer-no-danmaku .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box .llqplayer-setting-danunlimit,
-.llqplayer.llqplayer-no-danmaku .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box .llqplayer-setting-showdan,
-.llqplayer.llqplayer-no-danmaku .llqplayer-danmaku {
+.llqplayer.llqplayer-no-danmaku .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box .llqplayer-setting-showdan {
 	display: none
 }
 
