@@ -2418,6 +2418,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	cursor: pointer;
 	padding: 4px 26px;
 	border-bottom: 1px solid rgb(75 75 75);
+	border-top: 1px solid rgb(75 75 75);
 }
 
 .llqplayer-menu .llqplayer-menu-item:hover {
