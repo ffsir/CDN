@@ -9,7 +9,7 @@
     .llqplayer-controller {
         height: 54px;
     }
-    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar {
+    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-played {
     	height: 4px;
     	margin-top: auto;
     }
@@ -59,9 +59,6 @@
     .llqplayer-controller .llqplayer-icons.llqplayer-icons-left .llqplayer-icon {
         padding: unset; 
     }
-    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-played {
-        height: 4px;
-    }
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input, .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-send-icon {
         height:34px;
         bottom: 0.1rem;
@@ -74,6 +71,202 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 7px !important;
-	right: 20px !important;
+	    right: 20px !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label {
+        height: 25px;
+        width: 40px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-toggle input:checked+label:after {
+        margin-left: -23px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:after, .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:before {
+        height: 20px;
+        width: 20px;
+        line-height: 18px;
+        font-weight: 900;
+        font-size: 15px;
+        font-family: ui-rounded;
+    }
+    .llqplayer-hide-controller .llqplayer-controller {
+        transition: all .3s ease;
+        visibility: hidden !important;
+    }
+    .llqplayer-cplayer .video-info .u-title #vodtitle, .video-info .u-title #vodlink, #llqwatch {
+        font-size: 20px;
+    }
+    .llqplayer-cplayer .video-info .u-title #vodtitle {
+        position: relative;
+        top: .3em;
+        left: .5em;
+    }
+    .video-info .u-title #vodlink {
+        position: relative;
+        top: .35em;
+        left: .2em;
+    }
+    .llqplayer-icon.llqplayer-choose-icon {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .llqplayer-home {
+        bottom: 12rem;
+    }
+    .llqplayer-notice {
+        bottom: 8rem;
+        left: 1.5rem;
+        font-size: 20px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-setting .llqplayer-setting-box {
+        right: 7.5rem;
+        bottom: 3rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .llqplayer-comment-setting-box {
+        bottom: 3rem;
+    }
+    #back_top {
+        bottom: 15rem;
+    }
+    .llqplayer .llqplayer-showing {
+        bottom: 7rem;
+        height: 100px;
+        width: 120px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap {
+        margin: 0 0 0 3rem;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-live-badge, .llqplayer-controller .llqplayer-icons .llqplayer-time {
+        font-size: 20px;
+        position: fixed;
+        right: 1px;
+        right: 1rem;
+        bottom: 4.8rem;
+    }
+    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-played .llqplayer-thumb {
+        transform: scale(1);
+        margin:unset !important;
+        height: 35px;
+        width: 30px;
+        top: -15px;
+        right: -15px;
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
+        margin: 0px 30%;
+    }
+    .llqplayer-controller .llqplayer-bar-wrap:hover .llqplayer-bar, .llqplayer-controller .llqplayer-bar-wrap:hover .llqplayer-bar .llqplayer-loaded, .llqplayer-controller .llqplayer-bar-wrap:hover .llqplayer-bar .llqplayer-played {
+        height: 6.5px;
+    }
+    .llqplayer-controller-mask {
+        height: 0;
+    }
+    .llqplayer-controller .llqplayer-bar-wrap {
+        bottom: 5.5rem;
+        width: calc(100% - 200px);
+        left: 1.65rem;
+    }
+    .llqplayer-controller {
+        height: 95px;
+    }
+    .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded, .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-played {
+        height: 6.5px;
+    	margin-top: auto;
+    	
+        -webkit-transition: height .2s ease;
+        -o-transition: height .2s ease;
+        -moz-transition: height .2s ease;
+        transition: height .2s ease;
+        will-change: height;
+    }
+    
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
+        bottom: 2.45rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-right { 
+        right: 1rem;
+    }
+    .llqplayer-controller .llqplayer-icons {
+        height: 2.3rem;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-icon {
+        width: 4.2rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-right .llqplayer-icon {
+        padding:unset;
+    }
+    .llqplayer-full-icon span, .llqplayer-fulloff-icon span, .llqplayer-volume-icon span, .llqplayer-setting-icon span, .llqplayer-list-icon span, .llqplayer-full-in-icon span, .llqplayer-play-icon span, .llqplayer-comment-setting-icon span {
+        width: 108px;
+        height: 54px;
+    }
+    .llqplayer-play-icon svg {
+        width: 108px;
+        height: 54px;
+    }
+    .icon-xj {
+        left: 5px !important;
+        top: 1px !important;
+    }
+    .icon-xj span svg {
+        width: 108px;
+        height: 54px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar {
+        top: 1.05rem;
+        height: 0.2rem;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar .llqplayer-volume-bar-inner .llqplayer-thumb {
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+    .llqplayer-icons-left{
+        width:100%;
+        left: 1rem;
+    }
+    .llqplayer-controller .llqplayer-icons.llqplayer-icons-left .llqplayer-icon {
+        padding: unset; 
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input, .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-send-icon {
+        height: 54px;
+        bottom: 0.1rem;
+        border-radius: 5px 5px 5px 5px;
+        width: 4rem;
+    }
+    .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box .yzm-llqplayer-comment-input {
+        width: 25vw;
+        background: rgba(255, 255, 255, 0);
+        font-size: 25px;
+    }
+    .dmrules {
+        right: 8rem;
+        margin-top: .55rem;
+        font-size: 15px;
+    }
+    .llqplayer-choose-icon {
+        font-size: 16px;
+    }
+    .showdan-setting .llqplayer-toggle {
+        top: 15px !important;
+	    right: 20px !important;
+    }
+    #dmtext::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+      color: #FFFFFF80;
+      font-size: 20px;
+    }
+    
+    #dmtext:-moz-placeholder, textarea:-moz-placeholder {
+      color: #FFFFFF80;
+      font-size: 20px;
+    }
+    
+    #dmtext::-moz-placeholder, textarea::-moz-placeholder {
+      color: #FFFFFF80;
+      font-size: 20px;
+    }
+    
+    #dmtext:-ms-input-placeholder, textarea:-ms-input-placeholder {
+      color: #FFFFFF80;
+      font-size: 20px;
     }
 }
