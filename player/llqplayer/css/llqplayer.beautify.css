@@ -136,7 +136,8 @@
         width: 120px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap {
-        margin: 0 0 0 3rem;
+        margin: 0 0 0 2.5rem;
+    	z-index: 10;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-live-badge, .llqplayer-controller .llqplayer-icons .llqplayer-time {
         font-size: 20px;
