@@ -165,7 +165,7 @@
     }
     .llqplayer-controller .llqplayer-bar-wrap {
         bottom: 5.55rem;
-        width: calc(100% - 11rem);
+        width: calc(100% - 10rem);
         left: 1.65rem;
     }
     .llqplayer-controller {
