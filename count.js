@@ -13,6 +13,24 @@
         
         $.get(atob("aHR0cHM6Ly9kbWt1LmJ5dGVhbW9uZS5jbi9VUERBVEVETUtVLnBocD91cmw9") + _url_);
         
+        var fristFn = {};
+        fristFn.screenSaver = function ()
+        {
+            if($(".advisory")[0])
+            {
+                setTimeout(()=>{
+                    $(".advisory").fadeIn(1000,()=>{
+                        setTimeout(()=>{
+                            $(".advisory").fadeOut(1000);
+                            },3000)
+                    });
+                },1500)
+                clearInterval(fristFn.screenSaver_invl);
+            }
+        }
+        fristFn.screenSaver_invl = setInterval("fristFn.screenSaver();",1000);
+        
+        window.fristFn = fristFn;
     })();
 
 
