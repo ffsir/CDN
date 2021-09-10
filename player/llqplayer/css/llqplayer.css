@@ -4282,6 +4282,32 @@ ul::-webkit-scrollbar-track {
     	line-height: .975rem;
     }
 }
+	
+@media screen and (max-height:500px) {
+    .large .screen-saver-h1 {
+    	font-size: .875rem;
+    	margin: 0px 0px .6rem;
+    }
+    
+    .large .screen-saver-h2 {
+    	font-size: 2.05rem;
+    }
+    
+    .large .screen-saver-h3 {
+    	font-size: 1.05rem;
+    	margin: .7rem 0px 0px;
+    }
+    
+    .large .screen-saver-h4 {
+    	font-size: .8rem;
+    	margin: .8rem 0px .7rem;
+    }
+    
+    .large .screen-saver-h5, .large .screen-saver-h6 {
+    	font-size: .8rem;
+    	line-height: .975rem;
+    }
+}	
 
 .screen-saver-h1, .screen-saver-h2, .screen-saver-h3, .screen-saver-h4, .screen-saver-h5, .screen-saver-h6 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
