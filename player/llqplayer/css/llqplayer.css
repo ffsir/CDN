@@ -4179,20 +4179,6 @@ ul::-webkit-scrollbar-track {
     font-size:0.5rem;position: absolute;left: 135px;top: 3rem;overflow: auto;
 }
 
-@media screen and (max-width:768px) {
-	.llqplayer-home {
-        left: 1em;
-        padding: 1em 1em 1em;
-        width: auto;
-    	display: none;
-    }
-    .episode-list li { 
-        margin: 0.2rem 0.2rem 0.5rem;
-        height: 3rem;
-        width: 3rem;
-    }
-    
-}
 @media screen and (max-width:1024px) {
     .llqplayer-comment-box {
         display: none !important; 
@@ -4257,7 +4243,18 @@ ul::-webkit-scrollbar-track {
 	line-height: 1.35rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
+	.llqplayer-home {
+        left: 1em;
+        padding: 1em 1em 1em;
+        width: auto;
+    	display: none;
+    }
+    .episode-list li { 
+        margin: 0.2rem 0.2rem 0.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
     .large .screen-saver-h1 {
     	font-size: .875rem;
     	margin: 0px 0px .6rem;
@@ -4281,9 +4278,21 @@ ul::-webkit-scrollbar-track {
     	font-size: .8rem;
     	line-height: .975rem;
     }
+    
 }
-	
-@media screen and (max-height:500px) {
+
+@media screen and (max-height:768px) {
+	.llqplayer-home {
+        left: 1em;
+        padding: 1em 1em 1em;
+        width: auto;
+    	display: none;
+    }
+    .episode-list li { 
+        margin: 0.2rem 0.2rem 0.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
     .large .screen-saver-h1 {
     	font-size: .875rem;
     	margin: 0px 0px .6rem;
@@ -4307,7 +4316,8 @@ ul::-webkit-scrollbar-track {
     	font-size: .8rem;
     	line-height: .975rem;
     }
-}	
+    
+}
 
 .screen-saver-h1, .screen-saver-h2, .screen-saver-h3, .screen-saver-h4, .screen-saver-h5, .screen-saver-h6 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
