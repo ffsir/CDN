@@ -1178,8 +1178,8 @@ button[data-balloon] {
 }
 
 .llqplayer:-webkit-full-screen .llqplayer-danmaku .llqplayer-danmaku-right.llqplayer-danmaku-move {
-	-webkit-animation: danmaku 12s linear;
-	animation: danmaku 12s linear;
+	-webkit-animation: danmaku 15s linear;
+	animation: danmaku 15s linear;
 	-webkit-animation-play-state: inherit;
 	animation-play-state: inherit
 }
@@ -2309,8 +2309,8 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 
 .llqplayer-danmaku .llqplayer-danmaku-right.llqplayer-danmaku-move {
 	will-change: transform;
-	-webkit-animation: danmaku 12s linear;
-	animation: danmaku 12s linear;
+	-webkit-animation: danmaku 13.5s linear;
+	animation: danmaku 13.5s linear;
 	-webkit-animation-play-state: paused;
 	animation-play-state: paused;
 	user-select: none;
