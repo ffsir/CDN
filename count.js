@@ -19,13 +19,22 @@
             if($(".advisory")[0])
             {
                 setTimeout(()=>{
-                    $(".advisory").fadeIn(1000,()=>{
+                    $(".advisory").css('left',"-2vw").css('opacity',0).css('display','block').animate({"left":"2vw",'opacity':1},1000,()=>{
+                       
+                        setTimeout(()=>{
+                            $(".advisory").fadeOut(1000);
+                            },5000)
+       
+                    })
+                    
+                   /* $(".advisory").fadeIn(2000,()=>{
                         setTimeout(()=>{
                             $(".advisory").fadeOut(1000);
                             },3000)
-                    });
+                    });*/
                 },1500)
                 clearInterval(fristFn.screenSaver_invl);
+                document.ontouchmove = screenSaver.remove;
             }
         }
         fristFn.screenSaver_invl = setInterval("fristFn.screenSaver();",1000);
@@ -34,7 +43,7 @@
     })();
 
 
-/*! layer-v3.1.1 Web弹层组件 MIT License  http://layer.layui.com/  By 贤心 */ ;
+/*! layer-v3.1.1 Web弹层组件 MIT License  http://layer.layui.com/ Change By FFSir */ ;
 ! function(e, t) {
     "use strict";
     var i, n, a = e.layui && layui.define,
