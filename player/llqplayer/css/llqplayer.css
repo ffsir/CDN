@@ -2313,7 +2313,6 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	animation: danmaku 12s linear;
 	-webkit-animation-play-state: paused;
 	animation-play-state: paused;
-	
 	user-select: none;
 	position: absolute;
 }
