@@ -1184,6 +1184,13 @@ button[data-balloon] {
 	animation-play-state: inherit
 }
 
+.llqplayer-danmaku .llqplayer-danmaku-move:hover
+{
+    -webkit-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+    z-index: 999;
+}
+
 .llqplayer.llqplayer-live .llqplayer-bar-wrap,
 .llqplayer.llqplayer-live .llqplayer-setting-loop,
 .llqplayer.llqplayer-live .llqplayer-setting-speed,
@@ -4184,10 +4191,6 @@ ul::-webkit-scrollbar-track {
         display: none !important; 
     }
 }
-
-.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-icon {
-	/*	margin-left: -0.1rem;*/
-	}
 	
 @media screen and (max-width:376px) {
 	.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-comment {
