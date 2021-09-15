@@ -2274,8 +2274,8 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5%;
-	bottom: 10%;
+	top: 0;
+	bottom: 5%;
 	font-size: 22px;
 	color: #fff;
 }
