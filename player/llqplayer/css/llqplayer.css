@@ -457,7 +457,7 @@ button[data-balloon] {
 }
 
 [data-balloon][data-balloon-pos=down]:after {
-	margin-top: -1rem
+	margin-top: 0.5rem
 }
 
 [data-balloon][data-balloon-pos=down]:after,
@@ -3436,13 +3436,14 @@ ul::-webkit-scrollbar-track {
 .llqplayer-cplayer .video-info {
 	transition: all .3s ease;
 	position: absolute;
-/*	z-index: 3;*/
+	z-index: 3;
 	width: 100%;
 	color: #FFF;
 	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2), rgba(0, 0, 0, 0));
 }
 
 .llqplayer-cplayer .video-info .u-title {
+	height: 0;
 	margin: 10px 20px;
 }
 
