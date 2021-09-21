@@ -2300,6 +2300,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 	font-weight: bold;
 	line-height: 1.125;
 	text-shadow: rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) -1px 0px 1px;
+	z-index: 3;
 }
 
 .llqplayer-danmaku .llqplayer-danmaku-item--demo {
@@ -3443,7 +3444,6 @@ ul::-webkit-scrollbar-track {
 }
 
 .llqplayer-cplayer .video-info .u-title {
-	height: 0;
 	margin: 10px 20px;
 }
 
@@ -3874,6 +3874,7 @@ ul::-webkit-scrollbar-track {
 	animation: fastrx60 0.5s;
 	-webkit-animation: fastrx60 0.5s;
 	-moz-animation: fastrx60 0.5s;
+	z-index: 3;
 }
 
 .llqplayer-home.show {
@@ -4201,7 +4202,7 @@ ul::-webkit-scrollbar-track {
 }
 
 .watch-screen-saver {
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.85);
 	height: 100%;
 	position: relative;
 	width: 100%;
