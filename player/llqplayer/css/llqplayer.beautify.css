@@ -82,7 +82,7 @@
         border-radius: 100px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input:checked+label:after {
-        margin-left: -23px;
+        margin-left: -22px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:after, .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label:before {
         height: 20px;
