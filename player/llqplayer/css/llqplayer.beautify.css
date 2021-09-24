@@ -79,6 +79,7 @@
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label {
         height: 25px;
         width: 40px;
+        border-radius: 100px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input:checked+label:after {
         margin-left: -23px;
