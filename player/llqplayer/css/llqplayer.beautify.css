@@ -75,7 +75,7 @@
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1800px) {
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label {
         height: 25px;
         width: 40px;
