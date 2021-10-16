@@ -3,6 +3,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .llqplayer-notice {
+        bottom: 3rem;
+        left: 0.8rem;
+        font-size: 18px;
+    }
     .llqplayer-controller .llqplayer-bar-wrap {
         bottom: 2rem;
     }
