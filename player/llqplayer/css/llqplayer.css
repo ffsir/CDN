@@ -2535,6 +2535,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
     left: 10px;
     position: absolute;
     top: 3rem;
+	z-index: 3;
 }
 
 .llqplayer-info-panel .title {
