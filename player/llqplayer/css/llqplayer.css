@@ -1239,9 +1239,11 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
     cursor: pointer;
 }
 .llqplayer-controller .llqplayer-bar-wrap:hover .llqplayer-bar {
-    height: 4px;
+    -webkit-transform: scaleY(1.5);
+    -ms-transform: scaleY(1.5);
+    transform: scaleY(1.5);
+    transition: height .2s, transform .2s;
     margin-top: auto;
-    transition: height .2s;
 }
 .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar .llqplayer-loaded {
     background: hsla(0, 0%, 100%, .4);
