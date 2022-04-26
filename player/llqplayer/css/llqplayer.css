@@ -1233,7 +1233,7 @@ f .llqplayer.llqplayer-mobile .llqplayer-controller .llqplayer-icons .llqplayer-
 }
 .llqplayer-controller .llqplayer-bar-wrap .llqplayer-bar {
     position: relative;
-    height: 2px;
+    height: 4px;
     width: 100%;
     background: hsla(0, 0%, 100%, .2);
     cursor: pointer;
