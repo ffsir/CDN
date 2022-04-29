@@ -131,7 +131,7 @@
 /*---------------------------------------
     0.0 Vendor Style
 -----------------------------------------*/
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.font.im/icon?family=Material+Icons");
 /*---------------------------------------
     0.1 Bootstrap 
 -----------------------------------------*/
@@ -141,7 +141,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700");
+@import url("https://fonts.font.im/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
