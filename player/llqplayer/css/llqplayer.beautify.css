@@ -19,14 +19,11 @@
     	margin-top: auto;
     }
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
-        bottom:0.3rem;
+        bottom:.7rem;
     }
-    .llqplayer-controller .llqplayer-icons.llqplayer-icons-right { 
-        right:1rem;
-    }
-    .llqplayer-controller .llqplayer-icons {
-        height: 2.3rem;
-    }
+    /* .llqplayer-controller .llqplayer-icons {
+        height: 2.3rem; 
+    } */
     .llqplayer-controller .llqplayer-icons .llqplayer-icon {
         width:54px;
     }
@@ -39,7 +36,7 @@
     }
     .llqplayer-play-icon svg {
         width: 54px;
-        height: 31px;
+        height: 32px;
     }
     .icon-xj {
         left: 5px !important;
@@ -57,9 +54,12 @@
         height: 0.5rem;
         width: 0.5rem;
     }
-    .llqplayer-icons-left{
+    .llqplayer-icons-left {
         width:100%;
-        left: 1rem;
+        left: .3rem;
+    }
+    .llqplayer-icons-right { 
+        right:.3rem;
     }
     .llqplayer-controller .llqplayer-icons.llqplayer-icons-left .llqplayer-icon {
         padding: unset; 
@@ -78,9 +78,18 @@
         top: 7px !important;
 	    right: 20px !important;
     }
+    .llqplayer-controller .llqplayer-bar-wrap {
+        padding: unset;
+        height: 1rem;
+        left: .6rem;
+        width: calc(100% - 30px);
+    }
+    .llqplayer-bar-time {
+        top: -30px;
+    }
 }
 
-@media screen and (min-width: 1708px) {
+@media screen and (min-width: 2600px) {
     .llqplayer-controller .llqplayer-icons .llqplayer-toggle input+label {
         height: 25px;
         width: 40px;
