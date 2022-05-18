@@ -19,16 +19,16 @@
     	margin-top: auto;
     }
     .llqplayer .llqplayer-controller .llqplayer-icons.llqplayer-comment-box {
-        bottom:.7rem;
+        bottom: .65rem;
     }
     /* .llqplayer-controller .llqplayer-icons {
         height: 2.3rem; 
     } */
     .llqplayer-controller .llqplayer-icons .llqplayer-icon {
-        width:54px;
+        width: 54px;
     }
     .llqplayer-controller .llqplayer-icons.llqplayer-icons-right .llqplayer-icon {
-        padding:unset;
+        padding: unset;
     }
     .llqplayer-full-icon span, .llqplayer-fulloff-icon span, .llqplayer-volume-icon span, .llqplayer-setting-icon span, .llqplayer-list-icon span, .llqplayer-full-in-icon span, .llqplayer-play-icon span, .llqplayer-comment-setting-icon span {
         width: 54px;
@@ -75,7 +75,7 @@
         font-size: 16px;
     }
     .showdan-setting .llqplayer-toggle {
-        top: 7px !important;
+        top: 6px !important;
 	    right: 20px !important;
     }
     .llqplayer-controller .llqplayer-bar-wrap {
@@ -86,6 +86,9 @@
     }
     .llqplayer-bar-time {
         top: -30px;
+    }
+    .llqplayer-controller .llqplayer-icons .llqplayer-live-badge, .llqplayer-controller .llqplayer-icons .llqplayer-time {
+        font-size: .57rem !important;
     }
 }
 
@@ -264,7 +267,7 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 15px !important;
-	right: 20px !important;
+	    right: 20px !important;
     }
     #dmtext::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
       color: #FFFFFF80;
