@@ -47,8 +47,8 @@
         height: 33px;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar {
-        top: 1.05rem;
-        height: 0.2rem;
+        top: .75rem;
+        height: .2rem;
     }
     .llqplayer-controller .llqplayer-icons .llqplayer-volume .llqplayer-volume-bar-wrap .llqplayer-volume-bar .llqplayer-volume-bar-inner .llqplayer-thumb {
         height: 0.5rem;
