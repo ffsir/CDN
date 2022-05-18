@@ -55,11 +55,11 @@
         width: 0.5rem;
     }
     .llqplayer-icons-left {
-        width:100%;
-        left: .3rem;
+        width: 100%;
+        left: .3rem !important;
     }
     .llqplayer-icons-right { 
-        right:.3rem;
+        right:.3rem !important;
     }
     .llqplayer-controller .llqplayer-icons.llqplayer-icons-left .llqplayer-icon {
         padding: unset; 
@@ -264,7 +264,7 @@
     }
     .showdan-setting .llqplayer-toggle {
         top: 15px !important;
-	    right: 20px !important;
+	right: 20px !important;
     }
     #dmtext::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
       color: #FFFFFF80;
